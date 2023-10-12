@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Mooli&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./images/background@2x.png");
+    background-color: black;
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    /* border: solid pink; */
+}
+
+.logoNome{
+    height: 4rem;
+    /* border: solid orangered; */
+    width: 20vw;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.menu{
+    height: 4rem;
+    /* border: solid red; */
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+img{
+    width: 2rem;
+}
