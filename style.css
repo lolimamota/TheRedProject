@@ -7,12 +7,16 @@
 }
 
 body {
-    background-image: url("./images/background@2x.png");
+    /* overflow: hidden; */
+    background-image: url("./images/background@2x.png"),
+    url(./images/actor@2x.png),
+    url(./images/logo@2x.png);
     background-color: black;
     background-position: top;
-    background-size: 100vh;
+    background-size: 100% 100vh;
     background-repeat: no-repeat;
     font-family: 'Raleway', sans-serif;
+    z-index: 1;
 }
 
 header {
@@ -55,21 +59,4 @@ header {
     display: flex;
     align-items: center;
     width: 100vw;
-}
-
-body{
-    background-image: url(./images/actor@2x.png);
-    position: absolute;
-    height: 89.3vh;
-    margin: 0 auto;
-    z-index: 1;
-}
-
-body{
-    background-image: url(./images/logo@2x.png);
-    position: absolute;
-    top: 4rem;
-    height: 15vh;
-    margin: 0 auto;
-    z-index: 2;
 }
