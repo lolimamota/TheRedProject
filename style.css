@@ -23,12 +23,10 @@ header {
     display: flex;
     justify-content: space-between;
     color: white;
-    /* border: solid pink; */
 }
 
 .logoNome {
     height: 4rem;
-    /* border: solid orangered; */
     width: 20vw;
     display: flex;
     justify-content: space-around;
@@ -37,7 +35,6 @@ header {
 
 .menu {
     height: 4rem;
-    /* border: solid red; */
     width: 40vw;
     display: flex;
     justify-content: space-around;
